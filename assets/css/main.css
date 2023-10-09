@@ -2594,6 +2594,20 @@ input, select, textarea {
 		position: relative;
 	}
 
+	@media only screen and (max-width: 750px) {
+		.portfolio-profile-image:nth-of-type(1) {
+			width: 100%;
+			height: auto;
+		}
+	}
+
+	@media only screen and (min-width: 750px)  {
+		.portfolio-profile-image:nth-of-type(2) {
+			width: 500px;
+			height: 518px;
+			display: block;
+		}
+
 		.image img {
 			display: block;
 		}
@@ -2646,15 +2660,15 @@ input, select, textarea {
 				width: 100%;
 			}
 
-		@media screen and (max-width: 736px) {
+		/*@media screen and (max-width: 736px) {*/
 
-			.image.fit {
-				margin: 2rem 0;
-			}
+		/*	.image.fit {*/
+		/*		margin: 2rem 0;*/
+		/*	}*/
 
-			.image.main {
-				margin: 2rem 0;
-			}
+		/*	.image.main {*/
+		/*		margin: 2rem 0;*/
+		/*	}*/
 
 		}
 
